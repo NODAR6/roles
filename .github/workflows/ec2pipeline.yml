@@ -1,4 +1,4 @@
-name: ec2-creation
+name: roles creation
 
 on:
   push:
@@ -22,7 +22,7 @@ jobs:
         depth: 1
         branch: 'main'
         owner: 'NODAR6'
-        repository: 'ec2-ansible'
+        repository: 'roles'
 
     - name: Access cloned repo
       run: |

@@ -43,7 +43,7 @@ jobs:
            
     - name: Run Ansible Playbook
       run: |
-        ansible-playbook  ./instance/tests/test.yml
+        ansible-playbook -i ./instance/tests/inventory ./instance/tests/test.yml
 
 
 

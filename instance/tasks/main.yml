@@ -1,2 +1,2 @@
 ---
-# tasks file for instance
+- import_tasks: startec2.yaml
